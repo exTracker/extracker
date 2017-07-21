@@ -13,11 +13,10 @@ $userType = $_SESSION['userType'];
                 <a class="navbar-brand" href="index.php"><?php print $configs->application_title . " " . $configs->application_version; ?></a>
             </div>
             <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Dashboard</a></li>
-      <li><a href="#">Expenses</a></li>
-      <li><a href="#">Categories</a></li>
+      <li class="active"><a href="index.php">Dashboard</a></li>
+      <li><a href="expenses.php">Expenses</a></li>
+      <li><a href="category.php">Categories</a></li>
       <li><a href="#">Reports</a></li>
-      <li><a href="roadmap.php">Roadmap</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">

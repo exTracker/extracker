@@ -18,7 +18,7 @@ $login_session = $row['email'];
 $login_id = $row['id'];
 
 $_SESSION['userId'] = $login_id;
-$_SESSION['email'] = $myemail;
+$_SESSION['email'] = $login_session;
 $_SESSION['firstName'] = $fname;
 $_SESSION['lastName'] = $lname;
 $_SESSION['userType'] = $userType;
